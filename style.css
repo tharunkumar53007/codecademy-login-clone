@@ -1,0 +1,103 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(254,240,229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Roboto, Arial;
+    padding-top: 50px;
+}
+.login-text{
+    font-size: 26px;
+    font-weight: 500;
+}
+main{
+    padding-left: 6px;
+}
+.required{
+    margin: 20px 0px;
+    font-size: 15px;
+}
+.input-lebels{
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.input-boxes{
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: background-color 350ms ease-in-out, box-shadow 350ms ease-in-out;
+    outline: none;
+    margin-bottom: 25px;
+}
+.input-boxes:hover{
+    border-color: blue;
+}
+.input-boxes:focus{
+    /* outline: none; */
+    border-color: #3a10e5;
+    box-shadow: inset 0 0 0 1px #3a10e5;
+}
+.forgot-password{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(54, 28, 204);
+}
+.login-button{
+    padding: 12px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(52, 52, 221);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-bottom: 25px;
+}
+.login-button:hover{
+    opacity: 0.88;
+}
+.or-lebel{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.other-options-section img{
+    width: 30px;
+    height: 30px;
+    vertical-align:middle;
+}
+.other-options{
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.other-options:hover{
+    background-color: rgba(250, 235, 215, 0.664);
+}
+.other-options-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.not-member{
+    font-size: 15px;
+}
+.signup-text{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:rgb(39, 16, 168);
+}
