@@ -10,6 +10,7 @@ body{
     align-items: center;
     font-family:Roboto, Arial;
     padding-top: 50px;
+    user-select: none;
 }
 .main-div{
     width: 350px;
@@ -81,6 +82,8 @@ main{
     width: 30px;
     height: 30px;
     vertical-align:middle;
+    -webkit-user-drag: none;
+    user-select: none;
 }
 .other-options{
     background-color: white;
