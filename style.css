@@ -16,7 +16,7 @@ body{
 }
 .login-text{
     font-size: 26px;
-    font-weight: 500;
+    font-weight: bold;
 }
 main{
     padding-left: 6px;
@@ -88,6 +88,7 @@ main{
     border: 1px solid black;
     padding: 8px 16px;
     cursor: pointer;
+    border-radius: 2px;
 }
 .other-options:hover{
     background-color: rgba(250, 235, 215, 0.664);
@@ -113,6 +114,9 @@ main{
 
     .login-text {
         font-size: 22px;
+    }
+    .input-lebels{
+        font-size: 14px;
     }
 
     .input-boxes {
@@ -149,8 +153,8 @@ main{
     }
 
     .other-options-section img {
-        width: 20px;
-        height: 20px;
+        width: 26px;
+        height: 26px;
     }
 
     .not-member {
