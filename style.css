@@ -162,7 +162,7 @@ main{
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .main-div {
         width: 90%;
     }
@@ -195,4 +195,4 @@ main{
     .signup-text {
         font-size: 13px;
     }
-}
+} */
