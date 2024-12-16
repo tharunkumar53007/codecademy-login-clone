@@ -106,21 +106,93 @@ main{
     color:rgb(39, 16, 168);
 }
 @media (max-width:768px) {
-    .main-div{
+    .main-div {
         width: 300px;
+        padding: 15px;
     }
-    .login-text{
+
+    .login-text {
         font-size: 22px;
     }
-    .other-options-section img{
-        width: 25px;
-        height: 25px;
+
+    .input-boxes {
+        height: 45px;
+        font-size: 14px;
     }
-    .other-options{
-        padding-left: 13px;
-        padding-right: 13px;
+
+    .forgot-password {
+        font-size: 14px;
     }
-    .login-button{
+
+    .login-button {
         padding: 10px 14px;
+        font-size: 13px;
+    }
+
+    .or-lebel {
+        font-size: 14px;
+    }
+
+    .other-options-section {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .other-options {
+        padding: 5px 10px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .other-options-section img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .not-member {
+        font-size: 14px;
+    }
+
+    .signup-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-div {
+        width: 90%;
+    }
+
+    .login-text {
+        font-size: 20px;
+    }
+
+    .input-boxes {
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .forgot-password {
+        font-size: 13px;
+    }
+
+    .login-button {
+        font-size: 12px;
+    }
+
+    .or-lebel {
+        font-size: 13px;
+    }
+
+    .not-member {
+        font-size: 13px;
+    }
+
+    .signup-text {
+        font-size: 13px;
     }
 }
